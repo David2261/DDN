@@ -7,7 +7,32 @@
 - Django-environ
 - Flake8
 - Docker
+- Debian/Linux
 
+## Install
+- With poetry/venv
+```bash
+sudo apt upgrade
+poetry install
+. .venv/bin/activate
+python3 manage.py collectstatic
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py createsuperuser
+python3 manage.py runserver
+```
+- With Docker
+```bash
+sudo apt upgrade
+docker login
+docker build . --tag ddn
+docker run -p 8080:8000 ddn # с портом 8080
+```
+
+- Root
+```bash 
+chmod 777 -R .
+```
 
 ## Task
 

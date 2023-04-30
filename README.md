@@ -1,3 +1,14 @@
+# DDN ![GitHub repo size](https://img.shields.io/github/repo-size/David2261/DDN)
+
+## Tools
+- Python 3.9
+- Django 4.1
+- Poetry
+- Django-environ
+- Flake8
+- Docker
+
+
 ## Task
 
 Нужно сделать django app, который будет реализовывать древовидное меню, соблюдая следующие условия:
@@ -15,3 +26,10 @@
    При выполнении задания из библиотек следует использовать только Django и стандартную библиотеку Python.
    При решении тестового задания у вас не должно возникнуть вопросов. Если появляются вопросы, вероятнее всего, у вас недостаточно знаний.
    Задание выложить на гитхаб.
+
+## Example
+![Main page](/source/main_page.png)
+
+![Types page](/source/type_page.png)
+
+![Good p](/source/good_page.png)

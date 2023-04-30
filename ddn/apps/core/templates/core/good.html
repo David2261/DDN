@@ -1,0 +1,11 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<h1>{{ good.name }}</h1>
+<h3>{{ good.pub_time }}</h3>
+<h3>{{ good.price }}</h3>
+<h3>{{ good.type_good }}</h3>
+
+
+{{ good.description|linebreaks }}
+
+{% endblock %}
